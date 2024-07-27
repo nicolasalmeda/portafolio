@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import {AiOutlineHome} from 'react-icons/ai'
 import {BsPerson, BsCodeSlash} from 'react-icons/bs'
-import logo from '../assets/img/logo.png'
+import logo from '../assets/img/logoblanco.png'
 import '../css/nav.css'
 
 const Nav = () => {
