@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  --color: #04195f;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background: radial-gradient(
+    1700px circle at 4.48% 0%,
+    #537aab 0%,
+    #124285 100%
+  );
+  color: #e7e7e7;
+  min-height: 100vh;
+}
