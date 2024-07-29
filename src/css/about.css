@@ -1,0 +1,62 @@
+.AboutPage {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  margin-top: 100px;
+  align-items: center;
+  padding: 25px;
+}
+
+.AboutText {
+  width: 70%;
+  padding: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  border-radius: 20px;
+  box-shadow: -1px -1px 6px 0 var(--light-gray), 4px 4px 16px 2px var(--color);
+}
+.AboutTextHeading {
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+.AboutText a {
+  color: var(--color);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .AboutPage {
+    display: block;
+    text-align: center;
+    padding: 30px;
+  }
+  .AboutText {
+    text-align: left;
+    display: inline-block;
+    width: 95%;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    margin-bottom: 80px;
+  }
+  .AboutTextHeading {
+    font-size: 26px;
+  }
+
+  .Avatar {
+    width: 200px;
+    margin-bottom: 75px;
+  }
+}
+
+hr{
+  border: 3px solid var(--color);
+  width: 70%;
+  margin: 50px auto;
+  
+}

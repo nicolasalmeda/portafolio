@@ -9,6 +9,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import About from "./components/About";
 import MoveToTop from "./components/MoveToTop";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
@@ -30,7 +31,7 @@ function App() {
       {loading ? (
         <div className="loader">
           <CircleLoader
-            color={"#011c38"}
+            color={"#F5F5F5"}
             loading={true}
             size={100}
             aria-label="Loading Spinner"
@@ -46,6 +47,7 @@ function App() {
             <CSSTransition key={location.key} classNames="fade" timeout={500}>
               <Routes location={location}>
                 <Route path="/" element={<Home />} />
+                <Route path="/About" element={<About />} />
                 <Route path="/Projects" element={<Projects />} />
               </Routes>
             </CSSTransition>

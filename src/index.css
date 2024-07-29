@@ -46,12 +46,13 @@ button {
   margin: 25px 3% 0;
   padding: 10px;
   border-radius: 5px;
-  background-color: var(--light-blue);
+  background-color: var(--green);
   color: #01111a;
   height: 50px;
   cursor: pointer;
   text-decoration: none;
   border-style: none;
+  box-shadow: 0px 0px 10px 0px var(--light-blue);
 }
 
 button:hover {
