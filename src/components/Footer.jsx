@@ -13,10 +13,10 @@ const Footer = () => {
       <img src={logo} alt="logo N.A." />
       <h4>Copyright &copy; {year} | All Rights Reserved.</h4>
       <div className="footerLinks">
-        <a href="https://github.com/EshaalB" target="_blank">
+        <a href="https://github.com/nicolasalmeda" target="_blank">
           <FaGithub />
         </a>
-        <a href="www.linkedin.com/in/nicolas-almeda" target="_blank">
+        <a href="https://www.linkedin.com/in/nicolas-almeda/" target="_blank">
         <FaLinkedin />
         </a>
 
